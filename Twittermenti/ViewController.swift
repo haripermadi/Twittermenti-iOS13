@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreML
 
 class ViewController: UIViewController {
     
@@ -16,7 +17,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("heelllooo woorld!!!")
     }
 
     @IBAction func predictPressed(_ sender: Any) {
